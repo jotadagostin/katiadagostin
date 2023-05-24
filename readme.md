@@ -2,6 +2,15 @@
 
 Website para perfil profissiona de trabalho
 
+# Root #
+
+Font:
+Background:
+Color1(bege): #fff0d1
+Color2(verde): #092d20
+Font1: Century Gothic
+Font2: Minion Variable Concept
+
 
 # Index #
 
