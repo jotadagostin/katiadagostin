@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
+body {
+  background-color: #3757d0;
+  background-image: url("/img/logo/Log\ 1\ Fundo\ Bege.png");
+  background-image: radial-gradient(#fff0d1 3%, #092d20 97%);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--bege-color);
+  text-align: center;
+  text-shadow: 4px 6px 5px var(--green-color);
+  
+}
+
+#rotate-words {
+  max-width: 400px;
+  margin: auto;
+  padding: 20% 0;
+  font-size: 4.2em;
+  text-transform: uppercase;
+  font-family: var(--second-font);
+}
+
+#rotate-words div {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  left: 10vw;
+  width: 80vw;
+  line-height: 1.2em;
+  animation: rotate-word 32s linear infinite 0s;
+}
+
+@keyframes rotate-word {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+    filter: blur(10px);
+    transform: scale(1.2);
+  }
+  3% {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0px);
+    transform: scale(0.9);
+  }
+  12% {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0px);
+    transform: scale(1);
+  }
+  16% {
+    opacity: 0;
+    transform: translateX(0);
+    filter: blur(10px);
+    transform: scale(1.2);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#rotate-words div:nth-child(2) {
+  animation-delay: 4s;
+}
+#rotate-words div:nth-child(3) {
+  animation-delay: 8s;
+}
+#rotate-words div:nth-child(4) {
+  animation-delay: 12s;
+}
+#rotate-words div:nth-child(5) {
+  animation-delay: 16s;
+}
+#rotate-words div:nth-child(6) {
+  animation-delay: 20s;
+}
+#rotate-words div:nth-child(7) {
+  animation-delay: 24s;
+}
+#rotate-words div:nth-child(8) {
+  animation-delay: 28s;
+}
+
+@keyframes author {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+    filter: blur(10px);
+    transform: scaleY(2);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(200px);
+    filter: blur(10px);
+    transform: scaleY(2);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0px);
+    transform: scaleY(1);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0px);
+    transform: scaleY(0.9);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+    filter: blur(10px);
+    transform: scale(2);
+  }
+}
+
+.enter_button {
+    font-size: 30px;
+    font-family: var(--main-font);
+    border-radius: 50px;
+    width: 150px;
+    height: 60px;
+    background-color: #092d20;
+    color: #fff0d1;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+.enter_button:hover {
+    cursor: pointer;
+    width: 153px;
+    height: 63px;
+}
