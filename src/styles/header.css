@@ -1,0 +1,35 @@
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--green-color);
+}
+
+.header_menu__logo {
+  padding: 10px;
+}
+.header_menu__img {
+  width: 90px;
+  height: 80px;
+}
+
+.header_menu__nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 24px;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.header_menu__item {
+  text-decoration: none;
+  color: var(--bege-color);
+  font-family: var(--main-font);
+  padding: 12px 12px 10px 12px;
+  transition: 0.2s ease-in;
+}
+
+.header_menu__item:hover {
+  color: white;
+  font-size: 26px;
+  border-bottom: 0.6px solid white;
+}
