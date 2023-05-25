@@ -8,14 +8,20 @@
   padding: 10px;
 }
 .header_menu__img {
-  width: 90px;
-  height: 80px;
+  width: 350px;
+  height: 85px;
+  transition: 0.2s ease-in-out;
+}
+
+.header_menu__img:hover {
+    width: 355px;
+  height: 85px;
 }
 
 .header_menu__nav {
   display: flex;
   justify-content: space-evenly;
-  padding: 24px;
+  padding: 34px;
   margin-right: 15px;
   font-size: 25px;
 }
