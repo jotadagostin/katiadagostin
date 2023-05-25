@@ -30,3 +30,9 @@ Font2: Minion Variable Concept
 -Foto trabalho
 -todo os contatos disponiveis
 -botao home e header
+
+# Mandala conceito #
+
+A mandala é uma representação gráfica circular ligada a espiritualidade e 
+relacionada a mente humana. A palavra mandala tem origem no sânscrito e significa 
+" o que contém essência" ou "a esfera da  essência".    
