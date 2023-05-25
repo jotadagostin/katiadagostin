@@ -133,6 +133,11 @@ body {
     transition: 0.3s ease-in;
 }
 
+a {
+  text-decoration: none;
+  color: var(--bege-color);
+}
+
 .enter_button:hover {
     cursor: pointer;
     width: 153px;
