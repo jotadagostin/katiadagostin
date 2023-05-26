@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #fff0d1;
+}
+
+.container_conceito__titulo {
+  font-family: var(--main-font);
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--green-color);
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_conceito__p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: var(--second-font);
+  height: 240px;
+  font-family: var(--main-font);
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.container_foto {
+}
+
+.container_foto__img {
+  width: 600px;
+  height: 510px;
+}
