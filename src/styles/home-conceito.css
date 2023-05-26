@@ -10,7 +10,7 @@
   font-weight: bold;
   font-style: normal;
   color: var(--green-color);
-  height: 140px;
+  height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@
   align-items: center;
   text-align: center;
   font-family: var(--second-font);
-  height: 240px;
+  height: 210px;
   font-family: var(--main-font);
   padding: 15px;
   font-size: 25px;
@@ -29,10 +29,29 @@
   font-style: normal;
 }
 
+.container_mandala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.container_conceito__mandala {
+    width: 540px;
+    height: 180px;
+}
+
+
 .container_foto {
+    position: relative;
+
+}
+
+.container_foto::before {
+    opacity: 1;
 }
 
 .container_foto__img {
   width: 600px;
-  height: 510px;
+  height: 511px;
 }
