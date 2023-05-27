@@ -6,14 +6,16 @@
 
 .container_conceito__titulo {
   font-family: var(--main-font);
-  font-size: 45px;
+  font-size: 43px;
   font-weight: bold;
   font-style: normal;
   color: var(--green-color);
-  height: 110px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(50, 205, 55);
+
 }
 
 .container_conceito__p {
@@ -21,37 +23,45 @@
   align-items: center;
   text-align: center;
   font-family: var(--second-font);
-  height: 210px;
+  height: 205px;
   font-family: var(--main-font);
   padding: 15px;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bold;
   font-style: normal;
+  background-color: rgb(205, 50, 78);
+
 }
 
 .container_mandala {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 850px;
+  height: 208px;
+  background-color: rgb(66, 50, 205);
+
 }
 
 .container_conceito__mandala {
-    width: 540px;
-    height: 180px;
+  padding-top: 10px;
+  margin-top: 5px;
+  border-radius: 50px;
+  width: 176px;
+  height: 176px;
+  transition: 7s ease-in-out;
+}
+
+.container_conceito__mandala:hover {
+  transform: rotate(360deg);
+  width: 150px;
+  height: 150px;
 }
 
 
-.container_foto {
-    position: relative;
-
-}
-
-.container_foto::before {
-    opacity: 1;
-}
 
 .container_foto__img {
-  width: 600px;
-  height: 511px;
+  width: 500px;
+  height: 500px;
 }
+
