@@ -54,6 +54,12 @@
   height: 150px;
 }
 
+.container_mandala__retangulo {
+  background-color: var(--green-color);
+  width: 300px;
+  margin: 10px;
+  height: 1px;
+}
 
 .container_foto {
 }
