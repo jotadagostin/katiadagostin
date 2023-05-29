@@ -1,5 +1,10 @@
 .container_about {
   display: flex;
   justify-content: center;
-  background-color: green;
+  background-image: url('/src/img/background-office.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
+
+/* imagem muito grande, mudar o size dela */
