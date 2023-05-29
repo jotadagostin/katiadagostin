@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   background-color: #fff0d1;
+  height: 517px;
 }
 
 .container_conceito__titulo {
@@ -66,7 +67,7 @@
 
 .container_foto__img {
   width: 500px;
-  height: 512px;
+  height: 517px;
 	-webkit-mask-image: linear-gradient(to right, transparent 5%, green 40%);
 }
 
