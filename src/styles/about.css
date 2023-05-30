@@ -4,17 +4,13 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  /* background-image: url("/src/img/background-office.jpg"); */
+  background-image: url("/src/img/mandala-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-color: var(--bege-color);
-  /* opacity: 0.5; */
-}
-
-.container_about::before {
-  opacity: 0.5;
+  
 }
 
 .container_about__h1 {
@@ -26,13 +22,22 @@
   text-align: center;
 }
 
+
+.container_about__text {
+  
+
+}
 .container_about__p {
-  font-size: 26px;
+  width: 900px;
+  font-size: 28px;
   font-family: var(--second-font);
   font-style: normal;
   font-weight: 400;
   color: var(--green-color);
   text-align: justify;
-  padding: 16px;
-  margin: 10px;
+  padding: 16px 20px 16px 20px;
+  margin: 40px 60px 40px 60px;
+  
 }
+
+
