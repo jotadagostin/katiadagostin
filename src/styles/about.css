@@ -1,11 +1,38 @@
 .container_about {
+  min-height: 100vh;
   display: flex;
+  align-items: center;
   justify-content: center;
-  background-image: url('/src/img/background-office.jpg');
+  position: relative;
+  /* background-image: url("/src/img/background-office.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
-  
+  background-position: center;
+  background-attachment: fixed;
+  background-color: var(--bege-color);
+  /* opacity: 0.5; */
 }
 
-/* imagem muito grande, mudar o size dela */
-/* usar tambem background attachment */
+.container_about::before {
+  opacity: 0.5;
+}
+
+.container_about__h1 {
+  font-size: 45px;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  color: var(--green-color);
+  text-align: center;
+}
+
+.container_about__p {
+  font-size: 26px;
+  font-family: var(--second-font);
+  font-style: normal;
+  font-weight: 400;
+  color: var(--green-color);
+  text-align: justify;
+  padding: 16px;
+  margin: 10px;
+}
