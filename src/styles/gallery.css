@@ -1,0 +1,39 @@
+.container_gallery {
+    width: 1348px;
+    margin: auto;
+    padding: 50px;
+    background-color: var(--bege-color);
+}
+
+.container_gallery__title {
+    font-size: 45px;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    color: var(--green-color);
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.container_gallery__images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 70px;
+    justify-items: center;
+}
+
+.container_gallery__image {
+    display: inline-block;
+    width: 540px;
+    height: 360px;
+    border-radius: 15px;
+    border: 1px solid var(--green-color);
+    transition: 0.3s ease-in-out;
+}
+
+.container_gallery__image:hover {
+    opacity: 0.6 ;
+    width: 545px;
+    height: 365px;
+   
+}
