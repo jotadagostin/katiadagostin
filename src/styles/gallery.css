@@ -1,7 +1,6 @@
 .container_gallery {
     width: 1348px;
-    margin: auto;
-    padding: 50px;
+    text-align: center;
     background-color: var(--bege-color);
 }
 
@@ -12,7 +11,8 @@
     font-weight: 400;
     color: var(--green-color);
     text-align: center;
-    margin-bottom: 26px;
+    padding-top: 26px;
+    padding-bottom: 26px;
 }
 
 .container_gallery__images {
@@ -27,7 +27,7 @@
     width: 540px;
     height: 360px;
     border-radius: 15px;
-    border: 1px solid var(--green-color);
+    border: 2.5px solid var(--green-color);
     transition: 0.3s ease-in-out;
 }
 
