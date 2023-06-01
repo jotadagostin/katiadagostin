@@ -1,40 +1,57 @@
 .container_texts {
-    display: flex;
-    justify-content: center;
-    background-color: #fff0d1;
-    height: 617px;
-    width: 1348px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff0d1;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
 }
 
 .container_text__img {
-    width: 500px;
-    height: 617px;
-      -webkit-mask-image: linear-gradient(to left, transparent 5%, green 40%);
-      opacity: 0.5;
+  display: flex;
+  justify-self: center;
+  width: 1400px;
+  height: 717px;
+  position: absolute;
+  opacity: 0.2;
 }
 
 .container_text__h1 {
-    font-family: var(--main-font);
-    font-size: 43px;
-    font-weight: bold;
-    font-style: normal;
-    color: var(--green-color);
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: var(--main-font);
+  font-size: 40px;
+  font-weight: bolder;
+  font-style: normal;
+  color: var(--green-color);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.container_text__h2 {
+  font-family: var(--main-font);
+  font-size: 33px;
+  font-weight: bolder;
+  font-style: normal;
+  color: var(--green-color);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container_conceito__p {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-family: var(--second-font);
-    height: 205px;
-    font-family: var(--main-font);
-    font-size: 24px;
-    font-weight: bold;
-    font-style: normal;
-    margin-bottom: -40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: var(--second-font);
+  height: 200px;
+  font-size: 23px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: -70px;
+  margin-top: -50px;
+  padding: 0px 20px 0px 20px;
+  color: var(--green-color);
 }
