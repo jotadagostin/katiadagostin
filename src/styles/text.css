@@ -1,0 +1,27 @@
+.container_texts {
+  background-color: var(--bege-color);
+}
+
+.container_texts__text {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.container_texts__h1 {
+  font-family: var(--main-font);
+  font-size: 36px;
+  font-style: bolder;
+  color: var(--green-color);
+}
+
+.container_texts__photo {
+  display: flex;
+  justify-content: left;
+}
+
+.container_texts__img {
+  width: 690px;
+  height: 450px;
+}
