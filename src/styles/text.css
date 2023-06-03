@@ -68,14 +68,20 @@
 
 .container_texts__button {
   text-decoration: none;
-  color: var(--bege-color);
+  color: var(--green-color);
   font-family: var(--main-font);
   font-size: 20px;
   font-weight: bolder;
-  text-shadow: 1px 1px 5px var(--green-color);
+  padding: 5px;
+  transition: 0.1s ease-in-out;
+}
+
+.container_texts__button:hover {
+  font-size: 21px;
+  color: var(--bege-color);
+
 }
 
 .container_texts__backButtonStyle:hover {
   background-color: var(--green-color);
 }
-
