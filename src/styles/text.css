@@ -14,6 +14,15 @@
   font-style: bolder;
   color: var(--green-color);
   margin-top: 5px;
+  text-align: center;
+}
+
+.container_text__h2 {
+  font-family: var(--second-font);
+  font-size: 32px;
+  font-size: normal;
+  color: var(--green-color);
+  text-align: center;
 }
 
 .container_texts__photo {
@@ -24,6 +33,8 @@
 .container_texts__img {
   width: 690px;
   height: 450px;
+  border-radius: 15px;
+  margin: 10px;
 }
 
 .container_texts__paragraph {
