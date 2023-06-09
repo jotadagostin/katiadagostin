@@ -46,6 +46,18 @@
 }
 
 .container_contact__medias {
-    display: flex;
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
 
+.container_contact__a {
+  text-decoration: none;
+  font-size: 23px;
+  font-family: var(--main-font);
+  color: var(--green-color);
+}
+
+.fa {
+  margin: 11px;
 }
