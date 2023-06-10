@@ -73,3 +73,21 @@
   padding: 10px;
   background-color: #2BB741;
 }
+
+.container_contact_email:hover {
+  font-size: 25px;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #c71610;
+}
+
+.container_contact_facebook:hover {
+  font-size: 25px;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #2f55a4;
+}
+
+/* ajustar cores do email e instagram e tambem transition */
