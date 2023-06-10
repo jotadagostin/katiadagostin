@@ -61,3 +61,15 @@
 .fa {
   margin: 11px;
 }
+
+.container_contact__a:hover {
+  color: white;
+}
+
+.container_contact__whatsapp:hover {
+  font-size: 25px;
+  border: 1px solid green;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #2BB741;
+}
