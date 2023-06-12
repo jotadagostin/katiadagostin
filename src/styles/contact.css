@@ -53,6 +53,7 @@
   justify-content: space-around;
   gap: 45px;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .container_contact__a {
@@ -77,30 +78,27 @@
   padding: 10px;
   background-color: #2bb741;
   transition: 0.2s ease-in;
-
 }
 
-.container_contact_email:hover {
+.container_contact__email:hover {
   font-size: 24px;
   border: 1px solid white;
   border-radius: 15px;
   padding: 10px;
   background-color: #c71610;
   transition: 0.2s ease-in;
-
 }
 
-.container_contact_facebook:hover {
+.container_contact__facebook:hover {
   font-size: 24px;
   border: 1px solid white;
   border-radius: 15px;
   padding: 10px;
   background-color: #2f55a4;
   transition: 0.2s ease-in;
-
 }
 
-.container_contact_instagram:hover {
+.container_contact__instagram:hover {
   font-size: 24px;
   border: 1px solid white;
   border-radius: 15px;
@@ -132,5 +130,13 @@
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   transition: 0.2s ease-in;
+}
 
+.container_contact__adress {
+  font-family: var(--main-font);
+  font-size: 20px;
+  padding: 10px;
+  background-color: var(--bege-color);
+  border-radius: 15px;
+  margin-top: 45px;
 }
