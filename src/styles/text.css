@@ -96,3 +96,9 @@
 .container_texts__backButtonStyle:hover {
   background-color: var(--green-color);
 }
+
+/* Desktop Version */
+
+@media screen and (min-width: 1300px) {
+ 
+}

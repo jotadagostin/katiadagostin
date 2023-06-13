@@ -1,0 +1,21 @@
+/* Desktop Version */
+
+@media screen and (min-width: 1300px) {
+    
+    .footer {
+        display: none;
+    }
+      
+}
+
+/* Tablet Version */ 
+
+@media screen and (max-width: 768px) {
+
+} 
+
+/* Mobile Version */
+
+@media screen and (max-width: 417px) {
+
+}

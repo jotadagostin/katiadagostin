@@ -16,7 +16,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .container_conceito__p {
@@ -30,7 +29,6 @@
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
-
 }
 
 .container_mandala {
@@ -39,7 +37,6 @@
   align-items: center;
   width: 850px;
   height: 208px;
-
 }
 
 .container_conceito__mandala {
@@ -63,12 +60,21 @@
   height: 1px;
 }
 
-.container_foto {
-}
-
 .container_foto__img {
   width: 500px;
   height: 517px;
-	-webkit-mask-image: linear-gradient(to right, transparent 5%, green 40%);
+  -webkit-mask-image: linear-gradient(to right, transparent 5%, green 40%);
 }
 
+/* Desktop Version */
+
+@media screen and (min-width: 1400px) {
+  .container {
+    height: 517px;
+    width: 1803px;
+  }
+
+  .container_mandala {
+    width: 1500px;
+  }
+}
