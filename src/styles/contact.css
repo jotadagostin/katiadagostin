@@ -50,10 +50,11 @@
 
 .container_contact__medias {
   display: flex;
-  justify-content: space-around;
-  gap: 45px;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  justify-content: space-evenly;
+  width: 790px;
+  height: 66px;
+  gap: 30px;
+  /* margin: 10px 30px 40px 30px; */
 }
 
 .container_contact__a {
@@ -72,7 +73,7 @@
 }
 
 .container_contact__whatsapp:hover {
-  font-size: 24px;
+  font-size: 23px;
   border: 1px solid green;
   border-radius: 15px;
   padding: 10px;
@@ -139,6 +140,11 @@
   background-color: var(--bege-color);
   border-radius: 15px;
   margin-top: 45px;
+}
+
+.container_contact__adressInfo {
+  text-align: center;
+  padding: 5px;
 }
 
 .container_contact__home {
