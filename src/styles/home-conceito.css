@@ -78,3 +78,51 @@
     width: 1500px;
   }
 }
+
+/* Tablet version */
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .container_conceito {
+    text-align: center;
+  }
+
+  .container_mandala {
+    display: block;
+    text-align: center;
+  }
+
+  .container_mandala__retangulo {
+    background-color: var(--green-color);
+    width: 740px;
+    margin: 12px;
+    height: 1px;
+    text-align: center;
+  }
+
+  .container_conceito__mandala {
+    display: inline-block;
+    margin-right: 45px;
+  }
+
+  .container_foto {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .container_foto__img {
+    width: 400px;
+    height: 400px;
+    -webkit-mask-image: linear-gradient(to right and left, transparent 5%, var(--bege-color) 20%);
+    border-radius: 15px;
+    margin: 5px;
+    border: 1px solid var(--green-color);
+  
+  }
+}

@@ -40,3 +40,19 @@
   font-size: 26px;
   border-bottom: 0.6px solid white;
 }
+
+/* Desktop version */
+/* For the Desktop version is responding ok! */
+
+/* Tablet version: */
+
+@media screen and (min-width: 768px) {
+  .header_menu {
+    display: block;
+  }
+
+  .header_menu__logo {
+    display: flex;
+    justify-content: center;
+  }
+}
