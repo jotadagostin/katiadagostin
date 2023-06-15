@@ -10,7 +10,6 @@
   background-position: center;
   background-attachment: fixed;
   background-color: var(--bege-color);
-  
 }
 
 .container_about__h1 {
@@ -22,10 +21,7 @@
   text-align: center;
 }
 
-
 .container_about__text {
-  
-
 }
 .container_about__p {
   width: 900px;
@@ -37,7 +33,20 @@
   text-align: justify;
   padding: 16px 20px 16px 20px;
   margin: 40px 60px 40px 60px;
-  
 }
 
+/* Tablet version */
 
+@media screen and (min-width: 768px) {
+  .container_about__p {
+    width: 600px;
+    font-size: 28px;
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: 400;
+    color: var(--green-color);
+    text-align: justify;
+    padding: 16px 20px 16px 20px;
+    margin: 40px 60px 40px 60px;
+  }
+}

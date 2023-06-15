@@ -173,3 +173,31 @@
     margin-top: 80px;
   }
 }
+
+/* Tablet version */
+
+@media screen and (min-width: 768px) {
+  .container_contact {
+    display: inline;
+    text-align: center;
+  }
+
+  .container_contact__medias {
+    display: inline;
+  }
+
+  .container_contact__p {
+    font-family: var(--second-font);
+    height: 205px;
+    color: var(--green-color);
+    font-family: var(--second-font);
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    width: 600px;
+  }
+}
