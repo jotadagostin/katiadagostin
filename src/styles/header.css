@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   background-color: var(--green-color);
-  
 }
 
 .header_menu__logo {
@@ -15,7 +14,7 @@
 }
 
 .header_menu__img:hover {
-    width: 355px;
+  width: 355px;
   height: 85px;
 }
 
@@ -54,5 +53,30 @@
   .header_menu__logo {
     display: flex;
     justify-content: center;
+  }
+}
+
+/* Mobile version */
+
+@media screen and (min-width: 414px) {
+  .header_menu {
+    display: inline-block;
+  }
+
+  .header_menu__logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header_menu__nav {
+    display: inline-block;
+    text-align: center;
+    border-bottom: none;
+  }
+
+  .header_menu__item:hover {
+    color: white;
+    font-size: 26px;
+    border-bottom: none;
   }
 }
