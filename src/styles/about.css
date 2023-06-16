@@ -50,3 +50,16 @@
     margin: 40px 60px 40px 60px;
   }
 }
+
+/* Mobile Version: */
+
+@media screen and (max-width: 414px) {
+  .container_about__text {
+    width: 500px;
+  }
+
+  .container_about__p {
+    width: 330px;
+    text-align: center;
+  }
+}
