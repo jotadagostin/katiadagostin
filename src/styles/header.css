@@ -45,7 +45,7 @@
 
 /* Tablet version: */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .header_menu {
     display: block;
   }
@@ -58,7 +58,7 @@
 
 /* Mobile version */
 
-@media screen and (min-width: 414px) {
+@media screen and (max-width: 414px) {
   .header_menu {
     display: inline-block;
   }

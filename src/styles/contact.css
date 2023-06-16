@@ -176,7 +176,7 @@
 
 /* Tablet version */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .container_contact {
     display: inline;
     text-align: center;
