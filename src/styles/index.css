@@ -145,7 +145,7 @@ a {
 
 /* Mobile Version */
 
-@media screen and (min-width: 414px) {
+@media screen and (max-width: 414px) {
   .container_index {
     display: inline-block;
     justify-content: space-between;
@@ -164,3 +164,5 @@ a {
     height: 300px;
   }
 }
+
+
