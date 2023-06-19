@@ -96,5 +96,24 @@
 /* Mobile Version: */
 
 @media screen and (max-width: 414px)  {
- 
-}
+  .container_gallery {    
+
+  }
+
+  .container_gallery__images {
+    display: inline-block;
+  }
+
+  .container_gallery__image {
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    
+  }
+
+  .container_gallery__image:hover {
+    opacity: 0.6;
+    width: 350px;
+    height: 200px;
+  }
+ }

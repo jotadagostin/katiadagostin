@@ -201,3 +201,40 @@
     width: 600px;
   }
 }
+
+/* Mobile Version: */
+
+@media screen and (max-width: 414px) {
+  .container_contact {
+    display: inline-block;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  .container_contact__p {
+    font-family: var(--second-font);
+    height: 205px;
+    color: var(--green-color);
+    font-family: var(--second-font);
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+  }
+
+  .container_contact__whatsapp {
+    margin-top: 20px;
+  }
+  
+  .container_contact__adress {
+    width: 396px;
+  }
+
+  .container_contact__home {
+    width: 396px;
+  }
+}
