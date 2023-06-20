@@ -141,11 +141,16 @@
   }
 
   .container_conceito__p {
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     width: 400px;
     height: 205px;
     padding: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 365px;
   }
 
   .container_mandala__retangulo {
