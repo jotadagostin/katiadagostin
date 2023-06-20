@@ -78,6 +78,8 @@
   border-radius: 15px;
   padding: 10px;
   background-color: #2bb741;
+  width: 395px;
+
   transition: 0.2s ease-in;
 }
 
@@ -87,6 +89,8 @@
   border-radius: 15px;
   padding: 10px;
   background-color: #c71610;
+  width: 395px;
+
   transition: 0.2s ease-in;
 }
 
@@ -96,6 +100,8 @@
   border-radius: 15px;
   padding: 10px;
   background-color: #2f55a4;
+  width: 395px;
+
   transition: 0.2s ease-in;
 }
 
@@ -105,6 +111,8 @@
   border-radius: 15px;
   padding: 10px;
   background: #f09433;
+  width: 395px;
+
   background: -moz-linear-gradient(
     45deg,
     #f09433 0%,
@@ -205,6 +213,9 @@
 /* Mobile Version: */
 
 @media screen and (max-width: 414px) {
+  .container_contact__infos {
+    width: 390px;
+  }
 
   .container {
     width: 395px;
@@ -233,7 +244,7 @@
   .container_contact__whatsapp {
     margin-top: 20px;
   }
-  
+
   .container_contact__adress {
     width: 396px;
   }
