@@ -205,6 +205,10 @@
 /* Mobile Version: */
 
 @media screen and (max-width: 414px) {
+
+  .container {
+    width: 395px;
+  }
   .container_contact {
     display: inline-block;
     justify-content: space-around;

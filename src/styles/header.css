@@ -48,6 +48,7 @@
 @media screen and (max-width: 768px) {
   .header_menu {
     display: block;
+    width: 395px;
   }
 
   .header_menu__logo {
@@ -61,6 +62,7 @@
 @media screen and (max-width: 414px) {
   .header_menu {
     display: inline-block;
+    
   }
 
   .header_menu__logo {
@@ -69,9 +71,11 @@
   }
 
   .header_menu__nav {
-    display: inline-block;
     text-align: center;
     border-bottom: none;
+  }
+
+  .header_menu__list {
   }
 
   .header_menu__item:hover {
