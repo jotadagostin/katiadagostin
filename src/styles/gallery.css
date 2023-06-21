@@ -121,6 +121,10 @@
     height: 200px;
   }
 
+  .container_texts__img {
+    display: none;
+  }
+
   .container_gallery__image:hover {
     opacity: 0.6;
     width: 350px;
