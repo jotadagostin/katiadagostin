@@ -95,15 +95,14 @@
 /* Mobile Version: */
 
 @media screen and (max-width: 414px) {
-  .container_gallery {
-  }
-
+  
   .container_gallery__link {
-    width: 380px;
+    width: auto;
+    font-size: 16px;
   }
 
   .container_gallery__a:hover {
-    font-size: 20px;
+    font-size: 17px;
     border: 1px solid black;
     border-radius: 14px;
     padding: 10px;

@@ -332,4 +332,8 @@
     margin-bottom: 10px;
     width: 400px;
   }
+
+  .container_contact__adress {
+    width: auto;
+  }
 }
