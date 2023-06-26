@@ -143,6 +143,10 @@ a {
   height: 63px;
 }
 
+#myVideo {
+  display: none;
+}
+
 /* Mobile Version */
 
 @media screen and (max-width: 414px) {
