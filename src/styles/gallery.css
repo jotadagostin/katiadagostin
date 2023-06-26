@@ -38,7 +38,7 @@
 
 .container_gallery__link {
   font-family: var(--main-font);
-  font-size: 26px;
+  font-size: 24px;
   font-style: normal;
   color: var(--green-color);
   padding: 10px;
@@ -50,7 +50,7 @@
 }
 
 .container_gallery__a:hover {
-  font-size: 27px;
+  font-size: 25px;
   border: 1px solid black;
   border-radius: 14px;
   padding: 10px;
