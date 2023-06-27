@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:700");
 @import url("https://fonts.googleapis.com/css?family=Rubik");
 
-body {
+/* body {
   background-color: #3757d0;
   background-image: url("/img/logo/Log\ 1\ Fundo\ Bege.png");
   background-image: radial-gradient(#fff0d1 3%, #092d20 97%);
@@ -11,13 +11,45 @@ body {
   color: var(--bege-color);
   text-align: center;
   text-shadow: 4px 6px 5px var(--green-color);
+} */
+
+.background_video {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.background_video .video {
+  height: 130vh;
+}
+
+.background_video::after {
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(54, 135, 88) 10%,
+    rgba(26, 115, 69, 0.377) 50%,
+    rgb(54, 135, 88) 100%
+  );
 }
 
 #rotate-words {
-  max-width: 400px;
+  max-width: 800px;
+  text-align: center;
   margin: auto;
   padding: 20% 0;
   font-size: 4.2em;
+  color: white;
+  text-shadow:1px 1px 2px black;
   text-transform: uppercase;
   font-family: var(--second-font);
 }
@@ -120,6 +152,11 @@ body {
   }
 }
 
+.enter {
+  display: flex;
+  justify-content: center;
+}
+
 .enter_button {
   font-size: 30px;
   font-family: var(--main-font);
@@ -159,14 +196,25 @@ a {
     font-size: 2.6em;
   }
 
- 
-
   .enter {
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 410px;
+    height: 160px;
+  }
+
+  .background_video .video {
+    height: 100vh;
+  }
+
+  #rotate-words {
+    width: 410px;
     height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
-
-
