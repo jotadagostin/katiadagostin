@@ -53,10 +53,15 @@
 
 /* Mobile Version: */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 390px) {
   .container_about__text {
     display: inline-block;
     justify-content: center;
+    width: 375px;
+  }
+
+  .container_about__h1 {
+    width: 375px;
   }
 
   .container_about__p {
