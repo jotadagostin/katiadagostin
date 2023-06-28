@@ -21,8 +21,7 @@
   text-align: center;
 }
 
-.container_about__text {
-}
+
 .container_about__p {
   width: 900px;
   font-size: 28px;
@@ -55,24 +54,25 @@
 
 @media screen and (max-width: 390px) {
   .container_about__text {
-    display: inline-block;
+    display: block;
     justify-content: center;
-    width: 375px;
+    align-items: center;
+    width: 330px;
   }
-
+  
   .container_about__h1 {
-    width: 375px;
+    width: 330px;
+    font-size: 30px;
+    text-align: center;
+    
   }
 
   .container_about__p {
+    display: block;
     width: 330px;
     text-align: center;
   }
-
-  .container_about__h1 {
-    width: 400px;
-    font-size: 30px;
-    padding: 5px;
-    margin-left: 20px;
-  }
+  
 }
+
+

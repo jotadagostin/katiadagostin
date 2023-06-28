@@ -224,7 +224,7 @@
 
 /* Mobile Version: */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 390px) {
   .container_contact__medias {
     display: none;
   }

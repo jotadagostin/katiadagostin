@@ -94,7 +94,7 @@
 
 /* Mobile Version: */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 390px) {
   
   .container_gallery__link {
     width: auto;

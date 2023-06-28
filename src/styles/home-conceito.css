@@ -132,7 +132,7 @@
 
 /* Mobile Version: */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 390px) {
   .container {
     display: inline-block;
     width: 100vw;
