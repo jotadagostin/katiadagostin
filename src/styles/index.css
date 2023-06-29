@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:700");
 @import url("https://fonts.googleapis.com/css?family=Rubik");
 
-/* body {
+body {
   background-color: #3757d0;
   background-image: url("/img/logo/Log\ 1\ Fundo\ Bege.png");
   background-image: radial-gradient(#fff0d1 3%, #092d20 97%);
@@ -11,7 +11,7 @@
   color: var(--bege-color);
   text-align: center;
   text-shadow: 4px 6px 5px var(--green-color);
-} */
+}
 
 .background_video {
   position: absolute;
@@ -182,7 +182,11 @@ a {
 
 /* Mobile Version */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
+
+  .background_video {
+    display: none;
+  }
   .container_index {
     display: inline-block;
     justify-content: space-between;
