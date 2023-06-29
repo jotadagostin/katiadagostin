@@ -334,7 +334,8 @@
   }
 
   .container_contact__adress {
-    width: 355px;
-    
+    width: 330px;
+    margin-left: 15px;
+    text-align: center;
   }
 }
