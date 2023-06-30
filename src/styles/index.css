@@ -45,7 +45,6 @@ body {
 #rotate-words {
   max-width: 800px;
   text-align: center;
-  margin: auto;
   padding: 20% 0;
   font-size: 4.2em;
   color: white;
@@ -182,18 +181,15 @@ a {
 
 /* Mobile Version */
 
-@media screen and (max-width: 414px) {
-
+@media screen and (max-width: 390px) {
   .background_video {
     display: none;
   }
   .container_index {
     display: inline-block;
     justify-content: space-between;
-  }
-
-  #rotate-words {
-    font-size: 2.3em;
+    width: 90vw;
+    height: 50px;
   }
 
   .enter {
@@ -201,8 +197,8 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 410px;
-    height: 160px;
+    width: 350px;
+    height: 100px;
   }
 
   .background_video .video {
@@ -210,11 +206,17 @@ a {
   }
 
   #rotate-words {
-    width: 410px;
+    width: 180px;
     height: 300px;
+    margin: 5px;
+    font-size: 2.3em;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #rotate-words div {
+    width: 310px;
   }
 }
