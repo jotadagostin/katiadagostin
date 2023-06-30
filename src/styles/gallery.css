@@ -96,9 +96,14 @@
 
 @media screen and (max-width: 390px) {
 
+  .container_gallery {
+    margin: 0;
+  }
+
   .container_gallery__title {
-    width: 350px;
-    margin: 5px;
+    width: 370px;
+    margin-left: 0;
+    margin-right: 0;
   }
   
   .container_gallery__link {
