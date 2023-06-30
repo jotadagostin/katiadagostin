@@ -59,23 +59,31 @@
 
 /* Mobile version */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 390px) {
   .header_menu {
     display: inline-block;
-    
+    justify-content: center;
+    align-items: center;
   }
 
   .header_menu__logo {
     display: flex;
     justify-content: center;
+    width: 380px;
+    margin-right: 0;
+    padding: 0;
   }
 
   .header_menu__nav {
+    display: inline-block;
+    justify-content: center;
     text-align: center;
     border-bottom: none;
+    margin: 0;
   }
 
   .header_menu__list {
+    display: inline-block;
   }
 
   .header_menu__item:hover {
