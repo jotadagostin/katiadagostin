@@ -220,3 +220,13 @@ a {
     width: 310px;
   }
 }
+
+@media screen and (max-width: 414px) {
+
+ 
+
+  .enter {
+    height: 400px;
+    align-items: end;
+  }
+}
