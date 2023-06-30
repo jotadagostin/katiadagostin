@@ -57,7 +57,7 @@
     display: block;
     justify-content: center;
     align-items: center;
-    width: 330px;
+    max-width: 330px;
   }
   
   .container_about__h1 {
@@ -69,7 +69,7 @@
 
   .container_about__p {
     display: block;
-    width: 330px;
+    max-width: 330px;
     text-align: center;
     margin-left: 1px;
   }

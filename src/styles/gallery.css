@@ -95,9 +95,9 @@
 /* Mobile Version: */
 
 @media screen and (max-width: 390px) {
-
   .container_gallery {
     margin: 0;
+    max-width: 400px;
   }
 
   .container_gallery__title {
@@ -105,7 +105,7 @@
     margin-left: 0;
     margin-right: 0;
   }
-  
+
   .container_gallery__link {
     width: auto;
     font-size: 16px;
@@ -122,8 +122,9 @@
   }
 
   .container_gallery__images {
-    display: inline-block;
-    width: 350px;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
     margin: 5px;
   }
 
