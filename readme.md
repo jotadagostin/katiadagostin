@@ -12,8 +12,9 @@ Font1: Century Gothic
 Font2: Minion Variable Concept
 
 
-# Index #
+# Index and Home #
 
+-Video ou breve aprsentacao com texto...ver qual fica melhor
 -header com logo e links para "sobre" e "contato" ou "post"
 -rapida aprensetação com logo e nome
 -botão "entrar" para acessar o conteudo
