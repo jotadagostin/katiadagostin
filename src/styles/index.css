@@ -3,8 +3,9 @@
 
 body {
   background-color: #3757d0;
-  background-image: url("/img/logo/Log\ 1\ Fundo\ Bege.png");
-  background-image: radial-gradient(#fff0d1 3%, #092d20 97%);
+  /* background-image: url("/img/logo/Log\ 1\ Fundo\ Bege.png"); */
+  /* background-image: radial-gradient(#1f4934 3%, #0a2119 97%); */
+  background-color: var(--green-color);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,7 +14,7 @@ body {
   text-shadow: 4px 6px 5px var(--green-color);
 }
 
-.background_video {
+/* .background_video {
   position: absolute;
   z-index: -1;
   width: 100vw;
@@ -149,6 +150,23 @@ body {
     filter: blur(10px);
     transform: scale(2);
   }
+} */
+
+.container_index__logoImg {
+  width: 600px;
+  height: 400px;
+  border: 0.2px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.container_index__p {
+  font-family: var(--main-font);
+  font-size: 24px;
+  padding: 10px;
+  margin: 5px;
+  
 }
 
 .enter {
@@ -162,15 +180,16 @@ body {
   border-radius: 50px;
   width: 150px;
   height: 60px;
-  background-color: #092d20;
-  color: #fff0d1;
-  border: none;
+  background-color: var(--bege-color);
+  border: 1px solid white;
   transition: 0.3s ease-in;
+  padding: 10px;
+  margin: 10px;
 }
 
 a {
   text-decoration: none;
-  color: var(--bege-color);
+  color: var(--green-color);
 }
 
 .enter_button:hover {
@@ -222,9 +241,6 @@ a {
 }
 
 @media screen and (max-width: 414px) {
-
- 
-
   .enter {
     height: 400px;
     align-items: end;
