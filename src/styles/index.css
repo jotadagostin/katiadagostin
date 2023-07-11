@@ -16,7 +16,7 @@ body {
 
 
 .container_index__logoImg {
-  max-width: 1900px;
+  max-width: 1000px;
   height: 410px;
   /* border: 0.2px solid white; */
   border-radius: 15px;
@@ -83,7 +83,17 @@ a {
 
 /* Desktop Version */
 
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1400px) {
+
+  .container_index__logoImg {
+    max-width: 1300px;
+    height: 410px;
+    /* border: 0.2px solid white; */
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    
+  }
 
   .container_index__text {
     width: 1830px;
@@ -149,7 +159,7 @@ a {
   }
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (max-width: 430px) {
   .enter {
     display: inline-block;
     justify-content: center;
