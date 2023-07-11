@@ -6,6 +6,8 @@
   width: 1348px;
 }
 
+
+
 .container_conceito__titulo {
   font-family: var(--main-font);
   font-size: 43px;
@@ -132,12 +134,16 @@
 
 /* Mobile Version: */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
   .container {
     display: inline-block;
-    width: 100vw;
+    width: 50px;
     height: 100vh;
     text-align: center;
+  }
+
+  .container_conceito__titulo {
+    width: 360px;
   }
 
   .container_conceito__p {
@@ -145,7 +151,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: auto;
+    width: 360px;
     height: auto;
     padding: 20px;
     margin-top: 15px;
@@ -155,18 +161,20 @@
   .container_mandala__retangulo {
     display: none;
     background-color: var(--green-color);
-    width: 385px;
+    width: 50px;
     height: 1px;
     text-align: center;
     margin-top: 35px;
+    background-color: pink;
   }
 
   .container_mandala {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 395px;
+    width: 350px;
     text-align: center;
+
 
   }
 

@@ -59,19 +59,20 @@
 
 /* Mobile version */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
   .header_menu {
     display: inline-block;
     justify-content: center;
     align-items: center;
+    width: 370px;
   }
 
   .header_menu__logo {
     display: flex;
     justify-content: center;
-    width: 380px;
-    margin-right: 0;
-    padding: 0;
+    width: 270px;
+    margin-left: 35px;
+    padding: 5px;
   }
 
   .header_menu__nav {
