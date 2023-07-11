@@ -76,20 +76,34 @@
   }
 
   .header_menu__nav {
-    display: inline-block;
+    display: block;
     justify-content: center;
     text-align: center;
     border-bottom: none;
-    margin: 0;
+    width: 300px;
+    
   }
 
   .header_menu__list {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: ;
+    height: ;
+    margin-right: 50px;
   }
 
   .header_menu__item:hover {
     color: white;
     font-size: 26px;
     border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header_menu__list {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
   }
 }
