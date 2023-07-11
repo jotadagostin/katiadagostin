@@ -71,7 +71,7 @@
     display: flex;
     justify-content: center;
     width: 270px;
-    margin-left: 35px;
+    margin-left: 48px;
     padding: 5px;
   }
 
@@ -81,14 +81,11 @@
     text-align: center;
     border-bottom: none;
     width: 300px;
-    
   }
 
   .header_menu__list {
     display: flex;
     flex-direction: column;
-    width: ;
-    height: ;
     margin-right: 50px;
   }
 
