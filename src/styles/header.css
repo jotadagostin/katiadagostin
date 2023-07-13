@@ -70,9 +70,10 @@
   .header_menu__logo {
     display: flex;
     justify-content: center;
-    width: 270px;
-    margin-left: 48px;
+    width: 245px;
+    margin-left: 54px;
     padding: 5px;
+    
   }
 
   .header_menu__nav {

@@ -129,7 +129,7 @@
   }
 
   .container_gallery__image {
-    width: 350px;
+    width: 320px;
     height: 200px;
   }
 
@@ -139,7 +139,7 @@
 
   .container_gallery__image:hover {
     opacity: 0.6;
-    width: 350px;
+    width: 320px;
     height: 200px;
   }
 
@@ -148,4 +148,8 @@
     justify-content: center;
     width: 304px;
   }
+}
+
+@media screen and (max-width: 430px) {
+
 }
