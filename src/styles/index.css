@@ -128,14 +128,13 @@ a {
    
 
   .container_index__text {
-    width: 100px;
-    height: 20px;
+    border-radius: 15px ;
+    background-color: rgba(55, 86, 70, 0.195);
+
   }
 
   .container_index__p {
     width: 320px;
-    background-color: pink;
-
   }
 
   .container_index {
