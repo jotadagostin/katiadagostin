@@ -224,7 +224,7 @@
 
 /* Mobile Version: */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
   .container_contact__medias {
     display: none;
   }
@@ -319,18 +319,14 @@
   }
   .container_contact__p {
     font-family: var(--second-font);
-    height: 205px;
+    height: 305px;
     color: var(--green-color);
     font-family: var(--second-font);
-    padding: 15px;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 22px;
     font-style: normal;
-    padding: 25px;
     text-align: center;
-    margin: 10px;
-    margin-bottom: 10px;
-    width: 375px;
+    width: 325px;
+    margin-right: 34px;
   }
 
   .container_contact__adress {
@@ -338,4 +334,7 @@
     margin-left: 15px;
     text-align: center;
   }
+}
+
+@media screen and (max-width: 430px) {
 }
