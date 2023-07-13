@@ -13,6 +13,8 @@ body {
   text-align: center;
 }
 
+
+
 .container_index__logoImg {
   width: 1000px;
   height: 410px;
@@ -116,23 +118,24 @@ a {
 
 /* Mobile Version */
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .container_index__logoImg {
     width: 320px;
     height: 140px;
+    
   }
 
-  .container_index__logoImgDesktop {
-    display: none;
-  }
+   
 
   .container_index__text {
-    width: 300px;
+    width: 100px;
     height: 20px;
   }
 
   .container_index__p {
     width: 320px;
+    background-color: pink;
+
   }
 
   .container_index {
@@ -156,7 +159,7 @@ a {
   }
 }
 
-@media screen and (min-width: 430px) {
+@media screen and (max-width: 430px) {
   .enter {
     display: inline-block;
     justify-content: center;
