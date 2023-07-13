@@ -129,7 +129,6 @@ a {
 
   .container_index__text {
     border-radius: 15px ;
-    background-color: rgba(55, 86, 70, 0.195);
     
   }
 
@@ -174,7 +173,7 @@ a {
   }
 
   .container_index__text {
-    width: 405px;
+    width: 330px;
     height: 200px;
     text-align: center;
     border-radius: 15px ;
