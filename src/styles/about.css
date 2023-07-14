@@ -21,7 +21,6 @@
   text-align: center;
 }
 
-
 .container_about__p {
   width: 900px;
   font-size: 28px;
@@ -59,12 +58,11 @@
     align-items: center;
     max-width: 330px;
   }
-  
+
   .container_about__h1 {
     width: 330px;
     font-size: 30px;
     text-align: center;
-    
   }
 
   .container_about__p {
@@ -73,8 +71,28 @@
     text-align: center;
     margin-left: 1px;
   }
-  
 }
 
+@media screen and (max-width: 430px) {
+  .container_about {
+    width: 430px;
+    background-color: green;
+    height: 100vh;
+  }
 
+  .container_about__h1 {
+    width: 430px;
+    font-size: 26px;
+    margin-left: 25px;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
+  .container_about__p {
+    width: 430px;
+    margin-left: 25px;
+    padding: 20px 30px 20px 30px;
+    font-size: 21px;
+    text-align: center;
+  }
+}
