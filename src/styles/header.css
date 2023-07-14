@@ -64,7 +64,7 @@
     display: inline-block;
     justify-content: center;
     align-items: center;
-    width: 395px;
+    width: 375px;
   }
 
   .header_menu__logo {
@@ -98,6 +98,11 @@
 }
 
 @media screen and (max-width: 430px) {
+
+  .header_menu {
+    width: 414px;
+  }
+
   .header_menu__list {
     display: flex;
     flex-direction: column;
