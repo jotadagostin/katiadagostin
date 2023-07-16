@@ -1,4 +1,5 @@
 .container_about {
+  width: 100vw;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -13,12 +14,15 @@
 }
 
 .container_about__h1 {
+  display: flex;
+  justify-content: center;
   font-size: 45px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
   color: var(--green-color);
   text-align: center;
+  width: 700px;
 }
 
 .container_about__p {
@@ -51,7 +55,15 @@
 
 /* Mobile Version: */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
+
+  .container_about {
+    display: inline-block;
+    justify-content: center;
+    background-image: url('/src/img/background-office.jpg');
+    width: 200px;
+  }
+
   .container_about__text {
     display: block;
     justify-content: center;
@@ -60,9 +72,13 @@
   }
 
   .container_about__h1 {
-    width: 330px;
+    display: inline-block;
+    justify-content: center;
+    width: 50vw;
     font-size: 30px;
     text-align: center;
+    /* background-color: green; */
+    
   }
 
   .container_about__p {
@@ -70,13 +86,14 @@
     max-width: 330px;
     text-align: center;
     margin-left: 1px;
+    color: white;
+
   }
 }
 
 @media screen and (max-width: 430px) {
   .container_about {
     width: 430px;
-    background-color: green;
     height: 100vh;
   }
 
