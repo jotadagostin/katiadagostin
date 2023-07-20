@@ -37,3 +37,9 @@ Font2: Minion Variable Concept
 A mandala é uma representação gráfica circular ligada a espiritualidade e 
 relacionada a mente humana. A palavra mandala tem origem no sânscrito e significa 
 " o que contém essência" ou "a esfera da  essência".    
+
+
+# Effects #
+
+-css3: scroll-behavior: smooth;
+-AOS: Animate on Scroll library  https://michalsnik.github.io/aos/ 
