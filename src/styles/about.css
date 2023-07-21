@@ -60,8 +60,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-size: cover;
     width: 300px;
+    background-image: url('/src/img/manda-background-mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position:  center;
+    background-attachment: fixed; 
   }
 
   .container_about__text {
@@ -89,22 +93,24 @@
   .container_about {
     width: 100vw;
     height: 100vh;
-    background-image: none;
-    background-size: none;
-    background-repeat:  none;
-    background-position: none ;
-    background-attachment: none; 
+    background-image: url('/src/img/manda-background-mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position:  center;
+    background-attachment: fixed; 
   }
 
   .container_about__h1 {
-    width: 450px;
+    width: 340px;
     font-size: 26px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-left: 25px;
+    padding-left: 25px;
+    background-color: pink;
   }
 
   .container_about__p {
