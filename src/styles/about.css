@@ -61,11 +61,11 @@
     flex-direction: column;
     justify-content: center;
     width: 300px;
-    background-image: url('/src/img/manda-background-mobile.png');
+    background-image: url("/src/img/manda-background-mobile.png");
     background-size: cover;
-    background-repeat: no-repeat ;
-    background-position:  center;
-    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
   }
 
   .container_about__text {
@@ -89,34 +89,32 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 420px) {
   .container_about {
     width: 100vw;
     height: 100vh;
-    background-image: url('/src/img/manda-background-mobile.png');
+    background-image: url("/src/img/manda-background-mobile.png");
     background-size: cover;
-    background-repeat: no-repeat ;
-    background-position:  center;
-    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
   }
 
   .container_about__h1 {
-    width: 340px;
+    width: 390px;
     font-size: 26px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 25px;
-    padding-left: 25px;
-    background-color: pink;
+    margin-left: 40px;
+    padding-left: 65px;
   }
 
   .container_about__p {
     width: 415px;
-    margin-left: 20px;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 30px 2px 30px;
     font-size: 21px;
     text-align: center;
   }
