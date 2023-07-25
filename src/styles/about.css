@@ -55,39 +55,7 @@
 
 /* Mobile Version: */
 
-@media screen and (max-width: 375px) {
-  .container_about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 300px;
-    background-image: url("/src/img/manda-background-mobile.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-  }
 
-  .container_about__text {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    width: 391px;
-  }
-
-  .container_about__h1 {
-    width: 20px;
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .container_about__p {
-    display: block;
-    max-width: 330px;
-    text-align: center;
-    margin-left: 1px;
-  }
-}
 
 @media screen and (max-width: 420px) {
   .container_about {
@@ -117,5 +85,45 @@
     padding: 20px 30px 2px 30px;
     font-size: 21px;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    background-image: url("/src/img/manda-background-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .container_about__text {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 391px;
+  }
+
+  .container_about__h1 {
+    width: 330px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .container_about__p {
+    display: block;
+    width: 344px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 52px;
+    padding: 10px 40px 10px 40px;
+    border: 1px solid var(--green-color);
+    border-radius: 15px;
   }
 }
