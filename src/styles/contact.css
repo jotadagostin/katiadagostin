@@ -223,7 +223,58 @@
 }
 
 /* Mobile Version: */
+/* Iphone 8+, 9+... */
 
+@media screen and (max-width: 430px) {
+  .container_contact {
+  }
+
+  .container_contact__p {
+    width: 425px;
+    height: 255px;
+  }
+
+  .container_contact__whatsapp {
+    width: 395px;
+  }
+
+  .container_contact__whatsapp:hover {
+    font-size: 23px;
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #2bb741;
+    width: 395px;
+    text-align: center;
+
+    transition: 0.2s ease-in;
+  }
+  .container_contact__email {
+    width: 395px;
+  }
+
+  .container_contact__email:hover {
+    width: 395px;
+  }
+
+  .container_contact__instagram {
+    width: 395px;
+  }
+
+  .container_contact__instagram:hover {
+    width: 395px;
+  }
+
+  .container_contact__facebook {
+    width: 395px;
+  }
+
+  .container_contact__facebook:hover {
+    width: 395px;
+  }
+}
+
+/* Iphone 7,8,9... */
 @media screen and (max-width: 375px) {
   .container_contact__medias {
     display: none;
@@ -309,9 +360,6 @@
     width: 390px;
   }
 
-  .container {
-    width: 395px;
-  }
   .container_contact {
     display: inline-block;
     justify-content: space-around;
@@ -334,54 +382,4 @@
     margin-left: 15px;
     text-align: center;
   }
-}
-
-@media screen and (max-width: 430px) {
-  .container_contact {
-  }
-
-  .container_contact__p {
-    width: 425px;
-    height: 255px;
-  }
-
-  .container_contact__whatsapp {
-    width: 395px;
-  }
-
-  .container_contact__whatsapp:hover {
-    font-size: 23px;
-    border: 1px solid green;
-    border-radius: 15px;
-    padding: 10px;
-    background-color: #2bb741;
-    width: 395px;
-    text-align: center;
-  
-    transition: 0.2s ease-in;
-  }
-  .container_contact__email {
-    width: 395px;
-  }
-
-  .container_contact__email:hover {
-    width: 395px;
-  }
-
-  .container_contact__instagram {
-    width: 395px;
-  }
-
-  .container_contact__instagram:hover {
-    width: 395px;
-  }
-
-  .container_contact__facebook {
-    width: 395px;
-  }
-
-  .container_contact__facebook:hover {
-    width: 395px;
-  }
-
 }
