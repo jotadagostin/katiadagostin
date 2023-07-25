@@ -58,22 +58,40 @@
 }
 
 /* Mobile version */
+/* Iphone 7+, 8+, 10+... */
+
+@media screen and (max-width: 430px) {
+  .header_menu {
+    width: 414px;
+  }
+
+  .header_menu__list {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+  }
+}
+
+/* Iphone 7, 8, 10... */
 
 @media screen and (max-width: 375px) {
   .header_menu {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    width: 375px;
+    width: 360px;
   }
 
   .header_menu__logo {
     display: flex;
     justify-content: center;
-    width: 245px;
-    margin-left: 54px;
-    padding: 5px;
-    
+    width: 356px;
+  }
+
+  .header_menu__img {
+    width: 300px;
+    height: 100px;
   }
 
   .header_menu__nav {
@@ -94,19 +112,5 @@
     color: white;
     font-size: 26px;
     border-bottom: none;
-  }
-}
-
-@media screen and (max-width: 430px) {
-
-  .header_menu {
-    width: 414px;
-  }
-
-  .header_menu__list {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    text-align: center;
   }
 }

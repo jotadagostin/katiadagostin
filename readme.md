@@ -14,7 +14,8 @@ Font2: Minion Variable Concept
 
 # Index and Home #
 
--Video ou breve aprsentacao com texto...ver qual fica melhor
+<!-- -Video ou breve aprsentacao com texto...ver qual fica melhor -->
+-video foi substituido por letter + effects
 -header com logo e links para "sobre" e "contato" ou "post"
 -rapida aprensetação com logo e nome
 -botão "entrar" para acessar o conteudo
