@@ -62,11 +62,12 @@
 
 @media screen and (max-width: 430px) {
   .header_menu {
-    width: 414px;
+    
+    width: 430px;
   }
-
+   
   .header_menu__list {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     width: 300px;
     text-align: center;

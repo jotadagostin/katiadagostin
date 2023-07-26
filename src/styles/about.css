@@ -57,10 +57,10 @@
 
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
   .container_about {
-    width: 100vw;
-    height: 100vh;
+    width: 430px;
+    height: auto;
     background-image: url("/src/img/manda-background-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
