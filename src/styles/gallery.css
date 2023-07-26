@@ -108,12 +108,11 @@
     grid-template-columns: repeat(1, 1fr);
     justify-items: center; */
     display: inline-block;
-    padding-left: 5px;
   }
 
   .container_gallery__image {
     display: inline-block;
-    width: 345px;
+    width: 350px;
     height: 360px;
     border-radius: 15px;
     border: 2.5px solid var(--green-color);
@@ -167,8 +166,8 @@
   .container_gallery__images {
     display: flex;
     flex-direction: column;
-    max-width: 350px;
-    margin: 5px;
+    width: 355px;
+    margin: px;
   }
 
   .container_gallery__image {
