@@ -111,7 +111,7 @@
 
   .container_about__h1 {
     width: 280px;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -127,6 +127,6 @@
     /* padding: 10px 40px 10px 40px; */
     border: 1px solid var(--green-color);
     border-radius: 15px;
-    margin-left: 10px;
+    margin-left: 15px;
   }
 }
