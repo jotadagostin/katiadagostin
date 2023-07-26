@@ -173,6 +173,7 @@
 
   .container_conceito__titulo {
     width: 350px;
+    margin-left: 5px;
   }
 
   .container_conceito__p {
@@ -184,6 +185,7 @@
     height: auto;
     padding: 20px;
     margin-top: 15px;
+    margin-left: 5px;
     font-size: 20px;
   }
 
