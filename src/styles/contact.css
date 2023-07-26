@@ -276,6 +276,30 @@
 
 /* Iphone 7,8,9... */
 @media screen and (max-width: 375px) {
+  .container_contact__infos {
+    width: 357px;
+  }
+
+  .container_contact {
+    display: inline-block;
+    justify-content: center;
+  }
+
+  .container_contact__p {
+    font-family: var(--second-font);
+    width: 335px;
+    height: 305px;
+    color: var(--green-color);
+    font-family: var(--second-font);
+    font-size: 22px;
+    font-style: normal;
+    text-align: center;
+    border: 1px solid var(--green-color);
+    border-radius: 15px;
+    background-color: var(--bege-color);
+    color: var(--green-color);
+  }
+
   .container_contact__medias {
     display: none;
   }
@@ -354,27 +378,6 @@
     width: 180px;
     text-align: center;
     transition: 0.2s ease-in;
-  }
-
-  .container_contact__infos {
-    width: 390px;
-  }
-
-  .container_contact {
-    display: inline-block;
-    justify-content: space-around;
-    margin-bottom: 10px;
-  }
-  .container_contact__p {
-    font-family: var(--second-font);
-    height: 305px;
-    color: var(--green-color);
-    font-family: var(--second-font);
-    font-size: 22px;
-    font-style: normal;
-    text-align: center;
-    width: 325px;
-    margin-right: 34px;
   }
 
   .container_contact__adress {
