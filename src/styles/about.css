@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 430px) {
   .container_about {
-    width: 430px;
+    width: 400px;
     height: auto;
     background-image: url("/src/img/manda-background-mobile.png");
     background-size: cover;
@@ -69,19 +69,19 @@
   }
 
   .container_about__h1 {
-    width: 390px;
+    width: 350px;
     font-size: 26px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 40px;
-    padding-left: 65px;
+    margin-left: 70px;
   }
 
   .container_about__p {
-    width: 415px;
+    width: 380px;
+    margin-left: 60px;
     padding: 20px 30px 2px 30px;
     font-size: 21px;
     text-align: center;
