@@ -94,14 +94,11 @@
 
 /* Mobile Version: */
 
-
 /* Iphone 7+, 8+,  10+... */
 
 @media screen and (max-width: 430px) {
   .container_gallery {
     background-color: white;
-    
-   
   }
 
   .container_gallery__images {
@@ -119,6 +116,10 @@
     border: 2.5px solid var(--green-color);
     transition: 0.3s ease-in-out;
     margin-bottom: 5px;
+  }
+
+  .container_texts__img {
+    display: none;
   }
 
   .container_gallery__image:hover {
