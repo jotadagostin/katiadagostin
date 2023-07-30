@@ -110,12 +110,12 @@
   }
 
   .container_about__h1 {
-    width: 280px;
+    width: 245px;
     font-size: 25px;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
   }
 
   .container_about__p {

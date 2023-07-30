@@ -16,12 +16,11 @@
 }
 
 .footer_a:hover {
-    font-size: 15px;
-    transition: 0.1s ease-in-out;
+  font-size: 15px;
+  transition: 0.1s ease-in-out;
 }
 
 /* Mobile Version: */
-
 
 @media screen and (max-width: 430px) {
   .footer {
