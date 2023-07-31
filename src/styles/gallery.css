@@ -141,12 +141,12 @@
 @media screen and (max-width: 375px) {
   .container_gallery {
     margin: 0;
-    max-width: 400px;
+    max-width: 375px;
   }
 
   .container_gallery__title {
-    width: 370px;
-    margin-left: 0;
+    width: 330px;
+    margin-left: 20px;
     margin-right: 0;
   }
 
@@ -168,8 +168,8 @@
   .container_gallery__images {
     display: flex;
     flex-direction: column;
-    width: 355px;
-    margin-left: 10px;
+    width: 350px;
+    margin-left: 5px;
   }
 
   .container_gallery__image {
