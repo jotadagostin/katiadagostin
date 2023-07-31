@@ -99,11 +99,11 @@
 
 /* Desktop Version */
 
-@media screen and (min-width: 1300px) {
+@media screen and (max-width: 1300px) {
  
 }
 
-@media screen and (min-width: 430px) {
+@media screen and (max-width: 430px) {
   .container_texts__img {
     background-image: none;
   }
