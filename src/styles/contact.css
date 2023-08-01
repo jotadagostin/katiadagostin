@@ -315,7 +315,7 @@
     border-radius: 15px;
     background-color: var(--bege-color);
     color: var(--green-color);
-    margin-left: 10px;
+    margin-left: 15px;
   }
 
   .container_contact__medias {
@@ -401,7 +401,7 @@
   }
 
   .container_contact__home {
-    width: 340px;
+    width: 345px;
     text-align: center;
   }
 
