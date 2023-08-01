@@ -172,7 +172,7 @@
 @media screen and (max-width: 375px) {
   .container {
     display: inline-block;
-    width: 360px;
+    width: 375px;
     height: 100vh;
     text-align: center;
   }
