@@ -156,12 +156,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-
   }
 
   .container_mandala__retangulo {
     width: 375px;
-    
   }
 
   .container_foto__img {
@@ -174,7 +172,7 @@
 @media screen and (max-width: 375px) {
   .container {
     display: inline-block;
-    width: 375px;
+    width: 360px;
     height: 100vh;
     text-align: center;
   }

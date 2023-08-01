@@ -145,7 +145,7 @@
   }
 
   .container_gallery__title {
-    width: 330px;
+    width: 315px;
     margin-left: 20px;
     margin-right: 0;
   }
@@ -173,8 +173,8 @@
   }
 
   .container_gallery__image {
-    width: 350px;
-    height: 220px;
+    width: 320px;
+    height: 210px;
   }
 
   .container_texts__img {
@@ -184,7 +184,7 @@
   .container_gallery__image:hover {
     opacity: 0.6;
     width: 320px;
-    height: 200px;
+    height: 210px;
   }
 
   .container_texts__photo {

@@ -298,6 +298,9 @@
     justify-content: center;
   }
 
+  .container_contact__titulo {
+  }
+
   .container_contact__p {
     font-family: var(--second-font);
     width: 345px;
@@ -323,8 +326,7 @@
     margin-top: 20px;
     padding-top: 20px;
     width: 180px;
-    margin-right: 15px;
-
+    margin-right: 35px;
   }
 
   .container_contact__whatsappMobile:hover {
@@ -395,6 +397,11 @@
     width: 180px;
     text-align: center;
     transition: 0.2s ease-in;
+  }
+
+  .container_contact__home {
+    width: 340px;
+    text-align: center;
   }
 
   .container_contact__adress {
