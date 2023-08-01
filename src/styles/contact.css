@@ -304,7 +304,7 @@
 
   .container_contact__p {
     font-family: var(--second-font);
-    width: 345px;
+    width: 355px;
     height: 300px;
     color: var(--green-color);
     font-family: var(--second-font);
@@ -406,7 +406,7 @@
   }
 
   .container_contact__adress {
-    width: 340px;
+    width: 345px;
     margin-left: 10px;
     text-align: center;
   }
