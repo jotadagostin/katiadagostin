@@ -315,7 +315,7 @@
     border-radius: 15px;
     background-color: var(--bege-color);
     color: var(--green-color);
-    margin-left: 25px;
+    margin-left: 30px;
   }
 
   .container_contact__medias {
@@ -327,7 +327,7 @@
     margin-top: 20px;
     padding-top: 20px;
     width: 180px;
-    margin-right: 35px;
+    margin-right: 25px;
   }
 
   .container_contact__whatsappMobile:hover {
@@ -407,7 +407,7 @@
 
   .container_contact__adress {
     width: 345px;
-    margin-left: 10px;
+    margin-left: 15px;
     text-align: center;
   }
 }
