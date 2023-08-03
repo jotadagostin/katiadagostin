@@ -99,7 +99,6 @@
 @media screen and (max-width: 430px) {
   .container_gallery {
     width: 430px;
-    background-color: pink;
   }
 
   .container_gallery__title {
@@ -134,7 +133,7 @@
 
   .container_gallery__image:hover {
     opacity: 0.6;
-    width: 345px;
+    width: 370px;
     height: 360px;
   }
 
