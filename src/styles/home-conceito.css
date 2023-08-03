@@ -135,7 +135,7 @@
 
 @media screen and (max-width: 430px) {
   .container {
-    width: 400px;
+    width: 430px;
     height: 100%;
   }
 
@@ -151,15 +151,16 @@
   }
 
   .container_mandala {
-    width: 385px;
+    width: 430px;
     display: inline-block;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: 5px;
   }
 
   .container_mandala__retangulo {
-    width: 375px;
+    display: none;
   }
 
   .container_foto__img {
