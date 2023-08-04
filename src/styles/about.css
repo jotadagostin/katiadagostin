@@ -86,13 +86,13 @@
   }
 
   .container_about__p {
-    width: 380px;
-    /* margin-left: 60px; */
-    padding: 20px 30px 2px 30px;
+    
+    width: 350px;
     font-size: 21px;
     text-align: center;
     border: 1px solid black;
     border-radius: 20px;
+    margin-left: 25px;
   }
 }
 
