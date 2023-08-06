@@ -44,3 +44,9 @@ relacionada a mente humana. A palavra mandala tem origem no sânscrito e signifi
 
 -css3: scroll-behavior: smooth;
 -AOS: Animate on Scroll library  https://michalsnik.github.io/aos/ 
+
+# Mobile version #
+
+-Tablet (ok!)
+-Mobile 374px (ok!)
+-Mobile 430px 
