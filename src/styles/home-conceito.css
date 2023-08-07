@@ -135,7 +135,7 @@
 
 @media screen and (max-width: 430px) {
   .container {
-    width: 390px;
+    width: 430px;
     height: 100%;
   }
 
@@ -151,7 +151,7 @@
   }
 
   .container_mandala {
-    width: 430px;
+    width: 420px;
     display: inline-block;
     justify-content: center;
     align-items: center;
