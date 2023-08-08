@@ -75,23 +75,23 @@
   }
 
   .container_about__h1 {
-    width: 350px;
+    width: 370px;
     font-size: 26px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 25px;
+    margin-left: 20px;
   }
 
   .container_about__p {
-    width: 350px;
+    width: 370px;
     font-size: 21px;
     text-align: center;
     border: 1px solid black;
     border-radius: 20px;
-    margin-left: 25px;
+    margin-left: 20px;
   }
 }
 

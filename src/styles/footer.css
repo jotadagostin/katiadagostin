@@ -24,8 +24,8 @@
 
 @media screen and (max-width: 430px) {
   .footer {
-    width: 410px;
-    margin-left: 10px;
+    width: 420px;
+    margin-left: 5px;
     text-align: center;
     border-radius: 15px;
   }
