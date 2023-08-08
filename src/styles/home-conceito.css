@@ -140,11 +140,12 @@
   }
 
   .container_conceito__titulo {
-    width: 390px;
+    width: 420px;
+    margin: 5px;
   }
 
   .container_conceito__p {
-    width: 360px;
+    width: 420px;
     font-size: 20px;
     padding: 20px;
     margin: 5px;
@@ -156,7 +157,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 5px;
+  }
+
+  .container_conceito__mandala {
+    text-align: center;
+    margin-left: 55px;
+    margin-top: 15px;
   }
 
   .container_mandala__retangulo {
