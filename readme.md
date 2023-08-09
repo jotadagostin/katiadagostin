@@ -49,4 +49,4 @@ relacionada a mente humana. A palavra mandala tem origem no sânscrito e signifi
 
 -Tablet (ok!)
 -Mobile 374px (ok!)
--Mobile 430px 
+-Mobile 430px  (ok!)
