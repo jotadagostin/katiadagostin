@@ -184,9 +184,24 @@
 
 /* Desktop Version */
 
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1920px) {
   .container_contact__home {
     margin-top: 80px;
+  }
+
+  .container_contact__titulo {
+    font-size: 56px;
+    margin-top: 10px;
+  }
+
+  .container_contact__p {
+    font-size: 36px;
+    margin-bottom: 70px;
+  }
+
+  .container_contact__medias {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 
