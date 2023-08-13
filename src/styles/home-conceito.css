@@ -3,7 +3,7 @@
   justify-content: center;
   background-color: #fff0d1;
   height: 517px;
-  width: 1348px;
+  width: auto;
 }
 
 .container_conceito__titulo {
@@ -68,14 +68,19 @@
 
 /* Desktop Version */
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1920px) {
   .container {
-    height: 517px;
-    width: 1803px;
+    height: 617px;
+    width: auto;
   }
 
   .container_mandala {
-    width: 1500px;
+    width: 1860px;
+    margin-left: 15px;
+  }
+
+  .container_foto__img {
+    height: 617px;
   }
 }
 
