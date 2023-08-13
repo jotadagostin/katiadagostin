@@ -61,9 +61,9 @@
 
 /* Desktop Version */
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1920px) {
   .container_gallery {
-    width: 1903px;
+    width: auto;
     text-align: center;
     background-color: var(--bege-color);
   }

@@ -99,8 +99,11 @@
 
 /* Desktop Version */
 
-@media screen and (max-width: 1300px) {
- 
+@media screen and (min-width: 1920px) {
+  .container_texts {
+    width: auto;
+    height: 100vh;
+  }
 }
 
 @media screen and (max-width: 430px) {
