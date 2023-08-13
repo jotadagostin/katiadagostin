@@ -37,6 +37,25 @@
   margin: 40px 60px 40px 60px;
 }
 
+/* Desktop Version */
+
+@media screen and (min-width: 1920px) {
+  .container_about {
+    width: auto;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    background-image: url("/src/img/mandala-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+}
+
 /* Tablet version */
 
 @media screen and (max-width: 768px) {
