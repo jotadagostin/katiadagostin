@@ -30,14 +30,12 @@ body {
   width: 100%;
   height: 160px;
   text-align: center;
-  margin: 40px;
 }
 .container_index__p {
   width: 80%;
   font-family: var(--main-font);
   font-size: 30px;
   padding: 10px;
-  margin: 5px;
   text-transform: uppercase;
   text-align: center;
   animation: caret 1s steps(1) infinite;
