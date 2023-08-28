@@ -13,6 +13,10 @@ body {
   text-align: center;
 }
 
+.container_index__logo {
+  width: 100%;
+}
+
 .container_index__logoImg {
   width: 1000px;
   height: 410px;
@@ -83,7 +87,7 @@ a {
 
 @media screen and (min-width: 1920px) {
   .container_index__logo {
-    width: 2300px;
+    width: 400px;
     height: 300px;
     margin: 50px;
   }
