@@ -71,11 +71,11 @@
 @media screen and (min-width: 1920px) {
   .container {
     height: 617px;
-    width: auto;
+    width: 100%;
   }
 
   .container_mandala {
-    width: 1860px;
+    width: 100%;
     margin-left: 15px;
   }
 
