@@ -18,7 +18,7 @@ body {
 }
 
 .container_index__logoImg {
-  width: 1000px;
+  width: 60%;
   height: 410px;
   /* border: 0.2px solid white; */
   border-radius: 15px;
@@ -28,11 +28,11 @@ body {
 
 .container_index__text {
   width: 100%;
-  height: 160px;
+  height: 120px;
   text-align: center;
 }
 .container_index__p {
-  width: 80%;
+  width: 100%;
   font-family: var(--main-font);
   font-size: 30px;
   padding: 10px;
