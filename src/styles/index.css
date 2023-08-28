@@ -33,7 +33,7 @@ body {
   margin: 40px;
 }
 .container_index__p {
-  width: 100%;
+  width: 80%;
   font-family: var(--main-font);
   font-size: 30px;
   padding: 10px;
