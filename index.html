@@ -3,7 +3,327 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Katia Dagostin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- header starts here: -->
+
+    <!-- Header Desktop starts here: -->
+    <header>
+      <img
+        src="assets/logo/kd-new-logo-transparent.png"
+        alt="logo"
+        class="logo"
+      />
+      <nav class="nav-links">
+        <a href="#home">Início</a>
+        <a href="#about">Sobre mim</a>
+        <a href="#services">Serviços</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <button class="button-consulta scrolled">
+        <a
+          href="https://wa.me/5515991271165?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta."
+          target="_blank"
+          >AGENDAR CONSULTA</a
+        >
+      </button>
+    </header>
+    <!-- Header desktop ends here. -->
+
+    <!-- Header mobile burguer starts here: -->
+    <header class="header-mobile scrolled">
+      <div class="logo-mobile">
+        <img src="assets/logo/kd-new-logo-transparent.png" alt="" />
+      </div>
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" id="menu-checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="#home">
+              <li>Início</li>
+            </a>
+            <a href="#about">
+              <li>Sobre</li>
+            </a>
+            <a href="#services">
+              <li>Serviços</li>
+            </a>
+            <a href="#contact">
+              <li>Contato</li>
+            </a>
+            <button class="button-consulta_mobile">
+              <a
+                href="https://wa.me/5515991271165?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta."
+                target="_blank"
+                >AGENDAR CONSULTA</a
+              >
+            </button>
+            <div class="menu-mobile_icons">
+              <a href="https://www.instagram.com/psico.katiad/" target="_blank"
+                ><img
+                  src="assets/icon/instagram.svg"
+                  alt="logo instagram cor branca"
+              /></a>
+              <a href="https://www.facebook.com/katia.dagostin"
+                ><img src="assets/icon/facebook.svg" alt=""
+              /></a>
+              <a href="https://www.youtube.com" target="_blank"
+                ><img src="assets/icon/youtube.svg" alt="logo youtube branco"
+              /></a>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Header mobile burguer ends here. -->
+
+    <!-- header ends here -->
+
+    <!-- section home starts here: -->
+    <section id="home">
+      <div class="home-texts">
+        <h2>Boas-vindas ao meu trabalho 👋</h2>
+        <h1>Assistência psicologica simplificada para todos</h1>
+        <p>
+          Os trabalhos de um psicologo vão além dos sintomas, buscando
+          compreender as causas profundas dos seus desafios emocionais para
+          promover bem-estar e transformação duradoura.
+        </p>
+        <button>
+          <img src="assets/icon/whatsapp-for-button.svg" alt="green ball" /><a
+            href="https://wa.me/5515991271165?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta."
+            target="_blank"
+            >Agende a sua consulta</a
+          >
+        </button>
+      </div>
+      <div class="home-picture">
+        <img
+          src="assets/img/Made with insMind-5.png"
+          alt="Foto da psicologa lendo um livro, camisa verde e um livro verde"
+        />
+      </div>
+      <div class="numbers">
+        <div class="number">
+          <h1>Atendimento</h1>
+          <span>personalizado para cada historia</span>
+        </div>
+        <img src="assets/icon/divider.svg" alt="dividir" />
+        <div class="number">
+          <h1>Espaço</h1>
+          <span>seguro para falar, sentir e crescer</span>
+        </div>
+        <img src="assets/icon/divider.svg" alt="dividir" />
+        <div class="number">
+          <h1>Terapia</h1>
+          <span>com propósito e acolhimento</span>
+        </div>
+      </div>
+    </section>
+    <!-- section home ends here. -->
+
+    <!-- section services starts here: -->
+    <section id="services">
+      <div class="services-titles">
+        <h2>Serviços</h2>
+        <h1>Como posso ajudá-lo a se sentir melhor?</h1>
+      </div>
+
+      <div class="services-cards">
+        <div class="card">
+          <picture>
+            <source
+              media="(max-width: 390px)"
+              srcset="assets/icon/green-ball-check.svg"
+            />
+            <img src="assets/icon/green-ball.svg" alt="green ball" />
+          </picture>
+          <h3>Psicoterapia Individual</h3>
+          <p>
+            Atendimento personalizado focado no autoconhecimento, enfrentamento
+            de conflitos emocionais e desenvolvimento de habilidades para lidar
+            de forma mais equilibrada.
+          </p>
+        </div>
+        <div class="card">
+          <picture>
+            <source
+              media="(max-width: 390px)"
+              srcset="assets/icon/green-ball-check.svg"
+            />
+            <img src="assets/icon/green-ball.svg" alt="green ball" />
+          </picture>
+          <h3>Terapia de Casal</h3>
+          <p>
+            Espaço seguro para casais que desejam melhorar a comunicação,
+            fortalecer o vínculo e lidar com conflitos. Construindo
+            relacionamentos mais saudáveis, compreendendo as diferenças e
+            resgatando a parceria afetiva..
+          </p>
+        </div>
+        <div class="card">
+          <picture>
+            <source
+              media="(max-width: 390px)"
+              srcset="assets/icon/green-ball-check.svg"
+            />
+            <img src="assets/icon/green-ball.svg" alt="green ball" />
+          </picture>
+          <h3>Psicoterapia para Adolescentes</h3>
+          <p>
+            Atendimento voltado para jovens em fase de descobertas, desafios
+            escolares, familiares e sociais. Ajudamos o adolescente a lidar com
+            a ansiedade, identidade, autoestima e outros temas comuns dessa
+            fase.
+          </p>
+        </div>
+        <div class="card">
+          <picture>
+            <source
+              media="(max-width: 390px)"
+              srcset="assets/icon/green-ball-check.svg"
+            />
+            <img src="assets/icon/green-ball.svg" alt="" />
+          </picture>
+          <h3>Orientação Profissional</h3>
+          <p>
+            Suporte psicológico para quem está em dúvida sobre qual carreira
+            seguir ou transição profissional. Trabalhamos com testes, conversas
+            e reflexões para ajudar nas decisões mais conscientes e alinhadas
+            com o perfil do paciente.
+          </p>
+        </div>
+        <div class="card">
+          <picture>
+            <source
+              media="(max-width: 390px)"
+              srcset="assets/icon/green-ball-check.svg"
+            />
+            <img src="assets/icon/green-ball.svg" alt="green ball" />
+          </picture>
+          <h3>Acompanhamento para Ansiedade e Depressão</h3>
+          <p>
+            Atendimento focado na escuta ativa e em estratégias para enfrentar
+            sintomas de ansiedade, estresse e depressão. A terapia promove o
+            equilíbrio emocional e o bem-estar psicológico no dia a dia.
+          </p>
+        </div>
+        <div class="card">
+          <picture>
+            <source
+              media="(max-width: 390px)"
+              srcset="assets/icon/green-ball-check.svg"
+            />
+            <img src="assets/icon/green-ball.svg" alt="green ball" />
+          </picture>
+          <h3>Desenvolvimento Pessoal e Autoconhecimento</h3>
+          <p>
+            Para quem busca compreender mais profundamente seus padrões de
+            comportamento, crenças e emoções. Um processo transformador que
+            fortalece a autoestima, inteligência emocional e relações
+            interpessoais.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- section services ends here -->
+
+    <!-- section about starts here: -->
+    <section id="about">
+      <div class="about-picture">
+        <img
+          src="assets/img/7.jpg"
+          alt="Foto perfil tapando o rosto com um libro"
+        />
+      </div>
+      <div class="about-texts">
+        <h2>Sobre mim</h2>
+        <h1>Entenda quem somos e por que existimos</h1>
+        <p>
+          Sou pós graduada em Psicanálise, neste universo do Autoconhecimento me
+          especializei em jovens que estão passando pela fase linda da
+          Adolescentes. Fase de grandes desafios aprendizados das nossas
+          Emoções. Vivi uma adolescência complexa e tento ajudar jovens a passar
+          por esse turbilhao de Emoções e Angustias com mais leveza e sabedoria.
+          Despertando nesses jovens o autoconhecimento para assim traçar novos
+          caminhos e assim, serem homens de bem. Saiba que Eu posso te ajudar.
+        </p>
+      </div>
+    </section>
+    <!-- section about ends here. -->
+
+    <!-- section contact starts here: -->
+    <section id="contact">
+      <div class="contact-titles">
+        <h1>Entre em contato comigo!</h1>
+        <span
+          ><img src="assets/icon/map-pin.svg" alt="icon endereco" />R. Milton
+          Monzoni Wagner, n 30. Sorocaba, São Paulo</span
+        >
+        <span
+          ><img
+            src="assets/icon/mail.svg"
+            alt="icon endereco"
+          />psico.katia@gmail.com</span
+        >
+        <button>
+          <img
+            src="assets/icon/whatsapp-for-button.svg"
+            alt="whatspp icon branco"
+          /><a
+            href="https://wa.me/5515991271165?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta."
+            target="_blank"
+            >Agende a sua consulta</a
+          >
+        </button>
+      </div>
+      <div class="contact-picture">
+        <img src="assets/img/3.jpg" alt="" />
+      </div>
+    </section>
+    <!-- section contact ends here. -->
+
+    <!-- section footer starts here -->
+    <section id="footer">
+      <div class="footer-titles">
+        <img
+          src="assets/logo/kd-new-logo-transparent.png"
+          alt="logo katia dagostin com uma mandala ao inico, tudo na cor branca"
+        />
+        <span>©2022 - Katia Gabriel Dagostin.</span><br />
+        <span>Todos os direitos reservados.</span>
+      </div>
+      <div class="footer-icons">
+        <a href="https://www.instagram.com/psico.katiad/" target="_blank"
+          ><img src="assets/icon/instagram.svg" alt="logo insta cor branca"
+        /></a>
+        <a href="https://www.facebook.com/katia.dagostin" target="_blank"
+          ><img src="assets/icon/facebook.svg" alt="logo facebook branco"
+        /></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><img src="assets/icon/youtube.svg" alt="logo youtube branco"
+        /></a>
+      </div>
+    </section>
+    <!-- section footer ends here. -->
+
+    <script src="javascript/script.js"></script>
+  </body>
 </html>
