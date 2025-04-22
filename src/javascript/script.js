@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function (event) {
   // array with texts to type in typewriter
   var dataText = [
-    "Minha missão é ajudar a descobrir suas essencias, seus pontenciais, e descomplicar a sua mente.",
+    "Minha missão é reformar todo esse site, seus pontenciais, e descomplicar a sua mente.",
   ];
 
   // type one text in the typwriter
